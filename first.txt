@@ -1,1 +1,1 @@
-"Conflicting change from feature-2" 
+"Feature-2 conflicting change" 
