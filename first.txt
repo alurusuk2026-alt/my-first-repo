@@ -1,3 +1,2 @@
-
-Conflicting change from feature-2
-
+hello git"This is feature-1 work" 
+"Feature-1 change" 
