@@ -1,1 +1,3 @@
-"Conflicting change from master" 
+
+Conflicting change from feature-2
+
