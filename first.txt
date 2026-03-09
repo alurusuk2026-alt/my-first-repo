@@ -1,3 +1,6 @@
+hello git"This is feature-1 work" 
+"Feature-1 change" 
+"Change from feature-1" 
 Change made by teammate online
 
 # 1. Navigate to your repo
