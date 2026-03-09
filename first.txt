@@ -1,1 +1,1 @@
-hello git"This is feature-1 work" 
+"Conflicting change from master" 
