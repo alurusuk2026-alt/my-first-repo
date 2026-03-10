@@ -1,3 +1,8 @@
+hello git"This is feature-1 work" 
+"Feature-1 change" 
+"Change from feature-1" 
+"New feature for v1.1" 
+Change made by teammate online
 
 # 1. Navigate to your repo
 cd C:\Users\pc\Documents\my-first-repo
@@ -22,7 +27,7 @@ git commit -m "Add feature-1 change"
 
 # 6. Push feature-1 branch to GitHub
 git push -u origin feature-1
-<<<<<<< HEAD
+
 
 # 7. Create another branch for feature-2
 git checkout -b feature-2
@@ -35,5 +40,3 @@ git commit -m "Feature-2 conflicting change"
 # 9. Push feature-2 branch to GitHub
 git push -u origin feature-2
 
-=======
->>>>>>> feature-2
