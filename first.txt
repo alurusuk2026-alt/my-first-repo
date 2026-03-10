@@ -1,4 +1,44 @@
 hello git"This is feature-1 work" 
 "Feature-1 change" 
 "Change from feature-1" 
+<<<<<<< HEAD
 "New feature for v1.1" 
+=======
+Change made by teammate online
+
+# 1. Navigate to your repo
+cd C:\Users\pc\Documents\my-first-repo
+
+# 2. Make sure your remote is set correctly
+git remote -v
+# If not, set it:
+git remote add origin https://github.com/<your-username>/my-first-repo.git
+
+# 3. Push your default branch (main or master)
+git push -u origin master
+# If you renamed to main:
+# git push -u origin main
+
+# 4. Create a new branch for feature-1
+git checkout -b feature-1
+
+# 5. Make a change in feature-1
+echo "Feature-1 change" >> first.txt
+git add first.txt
+git commit -m "Add feature-1 change"
+
+# 6. Push feature-1 branch to GitHub
+git push -u origin feature-1
+
+# 7. Create another branch for feature-2
+git checkout -b feature-2
+
+# 8. Make a conflicting change in the same file
+echo "Feature-2 conflicting change" > first.txt
+git add first.txt
+git commit -m "Feature-2 conflicting change"
+
+# 9. Push feature-2 branch to GitHub
+git push -u origin feature-2
+
+>>>>>>> 505d3d611c2a72b5213085d262c36fa2bda80573
